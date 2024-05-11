@@ -24,7 +24,7 @@ export function About() {
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
-        <p style={{ paddingBottom: '10px' }}>
+        <p style={{ paddingBottom: '10px'}}>
           I've delved into both MERN and MEAN stacks, proficiently building RESTful APIs and seamlessly integrating them with frontend frameworks. Not only that, but I also specialize in harnessing the power of external APIs such as weather APIs, Razorpay, and Gemini AI, enhancing the functionality and user experience of your applications.
             </p>
         </ScrollAnimation>

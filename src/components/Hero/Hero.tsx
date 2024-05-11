@@ -8,6 +8,7 @@ import githubIcon from '../../assets/github.svg'
 import whatsapp from '../../assets/whatsapp.svg'
 import Hello from '../../assets/Hello.gif'
 import telegram from '../../assets/telegram.svg'
+import leetcode from '../../assets/leetcode.svg'
 export function Hero() {
   return (
     <Container id="home">
@@ -30,7 +31,8 @@ export function Hero() {
           </BrowserRouter>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
-      <div className="social-media"><a
+      <div className="social-media">
+        <a
         href="https://www.linkedin.com/in/karthikrajanv/"
         target="_blank"
         rel="noreferrer"
@@ -57,7 +59,15 @@ export function Hero() {
           rel="noreferrer"
         >
           <img src={telegram} alt="telegram" />
-        </a></div>
+        </a>
+        <a
+          href="https://leetcode.com/u/karthikrajan2k/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={leetcode} alt="Leetcode" />
+        </a>
+        </div>
         </ScrollAnimation>
       </div>
       <div className="hero-image">
